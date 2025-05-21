@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type printer interface {
 	print()
@@ -28,4 +30,5 @@ func main() {
 
 	// p = InkjetPrinter{}
 	InkjetPrinter{}.print()
+
 }
